@@ -11,7 +11,7 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 ## Installation 
 Clone/git pull the repo into any local directory
 ```
-git clone https://github.com/rcemper/Dataset-simple-M-N.git
+git clone https://github.com/rcemper/GlobalToJSON-Academic.git
 ```
 Run the IRIS container with your project: 
 ```
