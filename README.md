@@ -99,6 +99,9 @@ USER>
 ### Code Quality 
 ![CodeQuality](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/CodeQuality.JPG) 
 
+Do not wonder about some strange code constructs.   
+They were required as CodeQuality neither understands *NEW* command, not the scope of *%variables*   :-(  
+
 [Video](https://youtu.be/8Fz2537FHzc)
 
 [Online Demo Terminal](https://gbl-to-json-xla.demo.community.intersystems.com/terminal/)      
