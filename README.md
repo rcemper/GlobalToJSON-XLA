@@ -1,4 +1,4 @@
-# GlobalToJSON-Academic
+# GlobalToJSON-XL-Academic
 This package offers a utility to load a Global into JSON object and to create a    
 Global from this type of JSON object. ***Academic*** refers to the structure created.    
 Each logical node of the Global is presented separately with all its descendants    
@@ -19,8 +19,7 @@ docker-compose up -d --build
 ```
 ## How to Test it
 This is the pre-loaded Global **^dc.MultiD** for testing.
-![]()
-<img="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" width="50%")
+<img="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" width="300")
 
 Open IRIS terminal
 ```
