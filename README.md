@@ -19,7 +19,7 @@ docker-compose up -d --build
 ```
 ## How to Test it
 This is the pre-loaded Global **^dc.MultiD** for testing.
-<img="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" width="300")
+<img src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" widht="200">
 
 Open IRIS terminal
 ```
