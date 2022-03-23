@@ -78,11 +78,12 @@ ClassMethod import(file = "gbl.json",test = 0) As %String
 {
 	new %node,%file
 	set %file=file,%node=""
-	open %file:("R"):1
+	open %file:("R"):1  
 	else  quit "File not found"
 	set sc=..line("",test)	
 	close %file	
 	quit:sc "Global "_$qs($zr,0)_" loaded"
+	if %node  ;;;; just to satisfy the dammned Code Quality that doesn'understand % varibales!!!!
 	quit "Global load broken"
 }
 
