@@ -3,12 +3,12 @@
   <Document name="gbl-to-json-xla.ZPM">
     <Module>
       <Name>gbl-to-json-a</Name>
-      <Version>0.0.3</Version>
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.GblToJSON.XLA.CLS"/>
       <Resource Name="dc.MultiDxla.GBL"/>
-      <Description>cJSON Object from Global with Export/Show/Import from/to file</Description>
+      <Description>JSON Object from Global with Export/Show/Import from/to file</Description>
       	 <Author>
     			<Person>Robert C. Cemper</Person>
 		    	<CopyrightDate>2022</CopyrightDate>
