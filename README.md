@@ -1,7 +1,8 @@
 # GlobalToJSON-XL-Academic
 This package offers a utility to export a XLarge Global into JSON object file and to show or import it again.    
-In a previous example this all was processd in memory. But if this is a large Global you may eihter   
-experience <MAXSTRING> or a <STORE> error if the the generated JSON structure exceeds available memory. 
+In a previous example this all was processd in memory. But if this is a large Global you may either   
+experience <MAXSTRING> or a <STORE> error if the the generated JSON structure exceeds available memory.   
+
 ![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/globals.jpg)     
 ***Academic*** refers to the structure created.  
 - each node of the Global including the top node is represented as a JSON object   
