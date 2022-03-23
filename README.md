@@ -46,7 +46,7 @@ USER>; this is rather hard to read and follow
 
 USER>write $$Do^ZPretty(json)
 ```
-![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-Academic/master/Validate.JPG)
+![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Validate.JPG)
 
 Now we want to verify the load function.  
 First we make a copy of our source and then delete the source   
