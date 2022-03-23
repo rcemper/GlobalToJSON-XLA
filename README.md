@@ -19,7 +19,8 @@ docker-compose up -d --build
 ```
 ## How to Test it
 This is the pre-loaded Global **^dc.MultiD** for testing.
-![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-Academic/master/Global.JPG)
+![]()
+<img="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" width="50%")
 
 Open IRIS terminal
 ```
@@ -46,7 +47,8 @@ USER>; this is rather hard to read and follow
 
 USER>write $$Do^ZPretty(json)
 ```
-![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Validate.JPG)
+![]()
+<img src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Validate.jpg" width="80%">
 
 Now we want to verify the load function.  
 First we make a copy of our source and then delete the source   
