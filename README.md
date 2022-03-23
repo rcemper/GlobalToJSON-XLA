@@ -1,7 +1,7 @@
 # GlobalToJSON-XL-Academic
-This package offers a utility to export a XLarge Global into JSON object file and to show or import it again.    
-In a previous example this all was processd in memory. But if this is a large Global you may either   
-experience <MAXSTRING> or a <STORE> error if the the generated JSON structure exceeds available memory.   
+This package offers a utility to export an XLarge Global into a JSON object file and to show or import it again.    
+In a previous example, this all was processed in memory. But if this is a large Global you may either   
+experience \<MAXSTRING> or an \<STORE> error if the generated JSON structure exceeds available memory.   
 
 ![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/globals.jpg)     
 ***Academic*** refers to the structure created.  
@@ -11,9 +11,9 @@ experience <MAXSTRING> or a <STORE> error if the the generated JSON structure ex
 - the JSON object for the lowest level subscript has only value but no further subscript.   
   
 So this is basically a 1:1 image of your global and it's exported to a file (default: gbl.json)          
-I addition to the export a show method displays the generated file.   
+In addition to the export, a show method displays the generated file.   
 The tricky part is the import from file. It is a customize JSON parser as all others just   
-operate in memory. this fails with a reasonable sized Global   
+operate in memory. this fails with a reasonable-sized Global   
 (eg. ^oddDEF with ~ 1.7 million nodes takes ~ 78MB JSON file.)    
   
  ## Prerequisites    
@@ -69,7 +69,7 @@ USER>>write ##class(dc.GblToJSON.XLA).show()
 **validated JSON object**     
 <img src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Validate.jpg" width="80%">    
 
-Now we want to verify the load function as test into a PPG       
+Now we want to verify the load function as a test into a PPG       
 ```
 USER>write ##class(dc.GblToJSON.XLA).import(,1)
 Global ^||dc.MultiD loaded
@@ -104,4 +104,4 @@ USER>
 [Online Demo Terminal](https://gbl-to-json-xla.demo.community.intersystems.com/terminal/)      
 [Online Demo SMP](https://gbl-to-json-xla.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen)   
 
-[Article in DC](https://community.intersystems.com/post/globaltojson-academic)
+[Article in DC](https://community.intersystems.com/post/globaltojson-xl-academic)
