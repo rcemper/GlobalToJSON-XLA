@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="gbl-to-json-a.ZPM">
+  <Document name="gbl-to-json-xla.ZPM">
     <Module>
       <Name>gbl-to-json-a</Name>
       <Version>0.0.3</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.GblToJSON.A.CLS"/>
-      <Resource Name="dc.MultiDa.GBL"/>
-      <Description>create a JSON Object from Global and with Importer - in all details</Description>
+      <Resource Name="dc.GblToJSON.XLA.CLS"/>
+      <Resource Name="dc.MultiDxla.GBL"/>
+      <Description>cJSON Object from Global with Export/Show/Import from/to file</Description>
       	 <Author>
     			<Person>Robert C. Cemper</Person>
 		    	<CopyrightDate>2022</CopyrightDate>
 			    <License>MIT</License>
 			    <Notes>
-				      repository: https://github.com/rcemper/GlobalToJSON-Academic
+				      repository: https://github.com/rcemper/GlobalToJSON-XLA
 			    </Notes>
 		    </Author>
     </Module>
