@@ -76,23 +76,23 @@ end
 
 ClassMethod import(file = "gbl.json",test = 0) As %String
 {
-	new %node,%file,%do
-	set %file=file
-	set %top=""
-	open file:("R"):1
+	new %node,%file
+	set %file=file,%node=""
+	open %file:("R"):1
 	else  quit "File not found"
 	set sc=..line("",test)	
-	close file	
+	close %file	
 	quit:sc "Global "_$qs($zr,0)_" loaded"
 	quit "Global load broken"
 }
 
-ClassMethod line(nod,test)
+ClassMethod line(nod,test) as %String
 {
 #define nod "{""node"":"	
 #define val ",""val"":"
 #define sub ",""sub"":"
-	set sc=0
+	new %do
+	set sc=1
 	for i=0:1 {
 		use %file read line
 		quit:line="" 
@@ -114,6 +114,7 @@ ClassMethod line(nod,test)
 			if 0,($e(val,1,2)="""{")&&($e(val,*-1,*)="}""") {
 				set val=$e(val,2,*-1)
 				if 0,$l(val)>2 set %do={}.%FromJSON(val), val="%do"
+				if %do
 				}	
 			set %node=ref_$s(ref["(":")=",1:"=")_val
 			set:test %node=$replace(%node,"^","^||")
@@ -128,10 +129,10 @@ ClassMethod line(nod,test)
 		if $e(line)="]" {quit   }
 			
 		else  {
-			break
+			set sc=0  break 
 			}
 	}
-	quit 1
+	quit sc
 }
 
 }
