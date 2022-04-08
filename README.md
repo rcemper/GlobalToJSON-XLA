@@ -96,11 +96,6 @@ USER>zwrite ^||dc.MultiD
 USER>
 ```
 **q.a.d.**   
-### Code Quality 
-![CodeQuality](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/CodeQuality.JPG) 
-
-Do not wonder about some strange code constructs.   
-They were required as CodeQuality neither understands the *NEW* command, nor the scope of *%variables*   :-(  
 
 [Video](https://youtu.be/8Fz2537FHzc)
 
@@ -108,3 +103,5 @@ They were required as CodeQuality neither understands the *NEW* command, nor the
 [Online Demo SMP](https://gbl-to-json-xla.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen)   
 
 [Article in DC](https://community.intersystems.com/post/globaltojson-xl-academic)
+
+**Code Quality** in SCREENSHOTS
