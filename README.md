@@ -104,4 +104,5 @@ USER>
 
 [Article in DC](https://community.intersystems.com/post/globaltojson-xl-academic)
 
-**Code Quality** in SCREENSHOTS
+**Code Quality**  
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1671/screenshots/6xcvapdr4fglf04uthkrazgho4s.jpg">
