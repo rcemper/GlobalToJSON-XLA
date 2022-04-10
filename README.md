@@ -31,7 +31,7 @@ docker-compose up -d --build
 ## How to Test it
 This is the pre-loaded Global **^dc.MultiD** for testing.       
 
-<img src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" width="75%">
+<img src="https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/Global.JPG" width="85%">
 
 There are 3 methods available    
 - ClassMethod export(gref As %String = "^%",	file = "gbl.json") As %String     
