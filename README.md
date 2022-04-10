@@ -3,7 +3,8 @@ This package offers a utility to export an XLarge Global into a JSON object file
 In a previous example, this all was processed in memory. But if this is a large Global you may either   
 experience \<MAXSTRING> or an \<STORE> error if the generated JSON structure exceeds available memory.   
 
-![](https://raw.githubusercontent.com/rcemper/GlobalToJSON-XLA/master/globals.jpg)     
+<img src="https://openexchange.intersystems.com/mp/img/packages/1756/screenshots/gnjgktp7sism6dssle1glt2l3hc.png" width="75%">  
+
 ***Academic*** refers to the structure created.  
 - each node of the Global including the top node is represented as a JSON object   
 - **{"node":\<node name>,"val":\<value stored>,"sub":[\<JSON array of subscript objects>]}**  
