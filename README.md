@@ -98,12 +98,12 @@ USER>
 ```
 **q.a.d.**   
 
-[Video](https://youtu.be/8Fz2537FHzc)
+[Article in DC](https://community.intersystems.com/post/globaltojson-xl-academic)    
+
+[Video](https://youtu.be/8Fz2537FHzc)   
 
 [Online Demo Terminal](https://gbl-to-json-xla.demo.community.intersystems.com/terminal/)      
 [Online Demo SMP](https://gbl-to-json-xla.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen)   
-
-[Article in DC](https://community.intersystems.com/post/globaltojson-xl-academic)
 
 **Code Quality**  
 <img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1671/screenshots/6xcvapdr4fglf04uthkrazgho4s.jpg">
