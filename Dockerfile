@@ -1,5 +1,5 @@
 ARG IMAGE=intersystemsdc/iris-community
-
+FROM $IMAGE as builder
 USER root
 
 WORKDIR /opt/irisbuild
