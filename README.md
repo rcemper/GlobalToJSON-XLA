@@ -1,3 +1,6 @@
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b> 
+
 # GlobalToJSON-XL-Academic
 This package offers a utility to export an XLarge Global into a JSON object file and to show or import it again.    
 In a previous example, this all was processed in memory. But if this is a large Global you may either   
